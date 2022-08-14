@@ -1,0 +1,9 @@
+:where(nav){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:where(nav *){
+  margin: 10px;
+}
