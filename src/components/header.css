@@ -1,11 +1,12 @@
 :where(header){
+  grid-area: header;
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
 }
-:where(input){
+:where( header input){
   width: 268px;
   height: 36px;
   padding: 0px 16px;
@@ -15,9 +16,18 @@
   : 1px solid rgb(219, 211, 211);
 
 }
-:where(input:focus-visible){
+:where(header input:focus-visible){
 outline:  1px solid rgb(219, 211, 211);
 border: none;
 border-style: none;
 }
+:where(header .logo){
+  width: 35%;
+}
 
+:where(header .contenedor-input){
+  width: 30%;
+}
+:where(nav){
+  width: 35%;
+}

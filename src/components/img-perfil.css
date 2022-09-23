@@ -1,0 +1,22 @@
+:where(.img-perfil){
+  padding: 10px;
+}
+:where(.is-small){
+  width: 32px;
+  
+}
+:where(.is-mediun){
+  width: 56px;
+  
+}
+:where(.is-large){
+  width: 150px;
+  
+}
+
+:where(.img-perfil img){
+  border-radius: 50%;
+}
+:where(.img-name){
+  text-align: center;
+}

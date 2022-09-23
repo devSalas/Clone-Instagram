@@ -1,0 +1,11 @@
+:where(.perfil){
+  grid-area: perfil;
+  width: 319px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid rgb(211, 203, 203); */
+  margin-top:20px;
+  font-size: .9rem;
+} 

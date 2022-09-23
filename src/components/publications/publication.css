@@ -1,0 +1,12 @@
+:where(.publication){
+  position: relative;
+  height: 850px;
+  width: 470px;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(211, 203, 203);
+  border-radius: 10px;
+}
+
+:where(.publication-img){
+  width: 100%;
+}

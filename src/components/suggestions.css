@@ -1,0 +1,4 @@
+:where(.suggestions){
+  grid-area: suggestions;
+  font-size: .9rem;
+}

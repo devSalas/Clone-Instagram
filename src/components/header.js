@@ -6,13 +6,13 @@ export default function Header(){
 
   return(
     <header>
-    <picture>
-      <h2>instagram</h2>
-    </picture>
-    <div>
-      <input name="search" placeholder="Search" />
-    </div>
-    <Navbar/>
+      <picture className="logo">
+        <h2>instagram</h2>
+      </picture>
+      <div className="contenedor-input">
+        <input name="search" placeholder="Search" />
+      </div>
+      <Navbar/>
     </header>
   )
 }

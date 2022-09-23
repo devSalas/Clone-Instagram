@@ -2,10 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 1px solid blue;
+  /* outline: 1px solid blue; */
+}
+html{
+  background-color:#FAFAFA
 }
 
 .container{
   margin: auto;
   max-width: 975px;
+  display: grid;
+  grid-template-columns:55% 45%;
+  grid-template-areas: 
+  "header  header"
+  "story perfil"
+  "publications suggestions";
+  margin-bottom: 200px;
+  gap:20px 10px;
+  
+  
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.colorBlue{
+  color: #0095F6;
+}
+.bold{
+  font-weight: bold;
 }

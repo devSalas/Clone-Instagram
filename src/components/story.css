@@ -1,0 +1,24 @@
+:where(.Story){
+  grid-area: story;
+  position: relative;
+  width: 470px;
+  height: 119px;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 1px solid rgb(211, 203, 203);
+  border-radius: 10px;
+  margin-left:60px ;
+  font-size: .9rem;
+
+
+ /* scroll-snap-type: x proximity;
+  scroll-snap-type: center; */
+}
+:where(.img-perfiles){
+  display: flex;
+  justify-content: center;
+  position: absolute;
+
+}

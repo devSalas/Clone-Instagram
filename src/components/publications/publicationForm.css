@@ -1,0 +1,16 @@
+:where(.publication-form){
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  }
+:where(.publication-form  form input){
+  width: 100%;
+  height:31px ;
+  border-style: none;
+}
+:where(.publication-form  form input:focus-visible){
+  outline: none;
+}
+:where(.publication-form hr){
+  color: 1px solid gainsboro;
+}
